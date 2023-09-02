@@ -44,6 +44,7 @@ Anda dapat mengedit beberapa pengaturan dalam skrip ini untuk mengkustomisasi pe
   ```python
   JEDA_MIN = 5  # jeda waktu minimum antara transaksi (detik)
   JEDA_MAX = 10  # jeda waktu maksimum antara transaksi (detik)
+   ```
   
 Total CRO yang Akan Dikirim: Anda dapat mengubah jumlah CRO yang akan dikirim ke setiap alamat tujuan dalam skrip. Contoh:
  ```python
@@ -52,7 +53,7 @@ send_cro_to_many_wallets(privatekeys, destinations, 0.1)  # Mengirim 0.1 CRO ke 
 
 Gas Fee: Anda dapat mengedit gas dalam dictionary tx dalam skrip untuk menyesuaikan jumlah gas yang akan digunakan. Contoh:
 
- ```
+ ```python
 tx = {
     'from': address,
     'to': Web3.to_checksum_address(destination),
