@@ -67,4 +67,4 @@ Anda dapat mengedit beberapa pengaturan dalam skrip ini untuk mengkustomisasi pe
 
 ## Lisensi
 
-Projek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+Projek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE.md) untuk detail lebih lanjut.
