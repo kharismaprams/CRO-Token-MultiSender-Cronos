@@ -47,23 +47,23 @@ Anda dapat mengedit beberapa pengaturan dalam skrip ini untuk mengkustomisasi pe
    ```
   
 Total CRO yang Akan Dikirim: Anda dapat mengubah jumlah CRO yang akan dikirim ke setiap alamat tujuan dalam skrip. Contoh:
- ```python
+  ```python
   send_cro_to_many_wallets(privatekeys, destinations, 0.1)  # Mengirim 0.1 CRO ke setiap alamat tujuan
- ```
+  ```
 
 Gas Fee: Anda dapat mengedit gas dalam dictionary tx dalam skrip untuk menyesuaikan jumlah gas yang akan digunakan. Contoh:
 
- ```python
-  tx = {
-    'from': address,
-    'to': Web3.to_checksum_address(destination),
-    'value': aw_round,
-    'nonce': nonce,
-    'gas': 21000,  # Ubah ke jumlah gas yang diinginkan
-    'gasPrice': int(gas_price),  # Ubah ke integer
-    'chainId': w3.eth.chain_id,
-}
- ```
+  ```python
+    tx = {
+      'from': address,
+      'to': Web3.to_checksum_address(destination),
+      'value': aw_round,
+      'nonce': nonce,
+      'gas': 21000,  # Ubah ke jumlah gas yang diinginkan
+      'gasPrice': int(gas_price),  # Ubah ke integer
+      'chainId': w3.eth.chain_id,
+  }
+   ```
 
 ## Lisensi
 
