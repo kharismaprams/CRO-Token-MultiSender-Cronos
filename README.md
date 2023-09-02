@@ -1,6 +1,3 @@
-# CRO-Token-MultiSender-Cronos
-This is use to send CRO token on Cronos Chain EVM to much wallet (Multisender).
-
 # CRO Token MultiSender - Cronos
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
